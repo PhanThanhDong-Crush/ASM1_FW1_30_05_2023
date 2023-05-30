@@ -1,0 +1,25 @@
+<div class="text-center">
+    <h1>Admin Project List</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of projects, index as i">
+                <td>{{i + 1}}</td>
+                <td>{{item.name}}</td>
+                <td style="color: red; font-weight: 600;">${{item.price}}</td>
+                <td>
+                    <button class="btn btn-danger" (click)="RemovePro(item.id)">Delete</button>
+                    <button class="btn btn-warning" routerLink="/admin/project/{{item.id}}/edit">Update</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

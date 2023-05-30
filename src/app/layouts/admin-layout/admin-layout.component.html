@@ -1,0 +1,19 @@
+<div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/admin/project">Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <router-outlet></router-outlet>
+        <div style="float: right;">
+            <button class="btn btn-primary" routerLink="/admin/project-add">Add Project</button>
+        </div>
+    </main>
+    <footer>Admin - PhanThanhDong -
+        Ph28020
+    </footer>
+</div>

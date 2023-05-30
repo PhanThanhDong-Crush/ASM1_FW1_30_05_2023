@@ -1,0 +1,29 @@
+{
+  "project": [
+    {
+      "name": "Product 3",
+      "price": 300,
+      "id": 3
+    },
+    {
+      "name": "Product 4 update",
+      "price": 400,
+      "id": 4
+    },
+    {
+      "name": "Phan Đông Crush 010203",
+      "price": "500",
+      "id": 5
+    },
+    {
+      "name": "Tướng C",
+      "price": "900",
+      "id": 6
+    },
+    {
+      "name": "Tướng A ",
+      "price": "400",
+      "id": 7
+    }
+  ]
+}
